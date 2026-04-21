@@ -1,7 +1,8 @@
 # Spatial Web 2526
 
-Spatial Web 2526 is a project that adapts the [IEEE P2874 March 2025](https://ieeexplore.ieee.org/document/10929711) Draft Standards that describes the concepts of the Spatial Web framework. It was developed in fulfillment for the attainment of the Bachelor of Science degree in Computer Science under the [Department of Computer Science], [College of Engineering], [University of the Philippines] [Diliman].
+Spatial Web 2526 is a project that adapts the [IEEE P2874 March 2025](https://ieeexplore.ieee.org/document/10929711) Draft Standards that describes the concepts of the Spatial Web framework. It was developed in fulfillment for the attainment of the Bachelor of Science degree in Computer Science under the [Networks and Distributed Systems Laboratory] of the [Department of Computer Science], [College of Engineering], [University of the Philippines] [Diliman].
 
+[Networks and Distributed Systems Laboratory]: https://dcs.upd.edu.ph/research/labs/ndsl
 [Department of Computer Science]: https://dcs.upd.edu.ph/
 [College of Engineering]: https://coe.upd.edu.ph/
 [University of the Philippines]: https://up.edu.ph/
