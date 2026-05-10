@@ -12,9 +12,9 @@ Spatial Web 2526 is a project that adapts the [IEEE P2874 March 2025] Draft Stan
 
 ## Project Overview
 This project is composed of three repositories:
-1. ESP32 BLE Beacon
-2. Android Application
-3. Spatial Web Server
+1. [ESP32 BLE Beacon](https://github.com/Spatial-Web-2526/spatial-web-bluetooth-beacon)
+2. [Android Application](https://github.com/Spatial-Web-2526/spatial-web-android-client)
+3. [Spatial Web Server](https://github.com/Spatial-Web-2526/spatial-web-server)
 
 The **ESP32** BLE Beacon serves as the "starting point" of the connection. It acts as a spatial anchor, corresponding to a room in a building, broadcasting the room's corresponding Spatial Web ID (SWID) via advertisement data.
 
