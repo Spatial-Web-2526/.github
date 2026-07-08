@@ -11,7 +11,7 @@
 Spatial Web 2526 is a project that adapts the [IEEE P2874 March 2025] Draft Standards that describes the concepts of the Spatial Web framework. It was developed in fulfillment for the attainment of the Bachelor of Science degree in Computer Science under the [Networks and Distributed Systems Laboratory] of the [Department of Computer Science], [College of Engineering], [University of the Philippines] [Diliman].
 
 ## Project Overview
-This project is composed of three repositories:
+This project is composed of four  repositories:
 1. [ESP32 BLE Beacon](https://github.com/Spatial-Web-2526/spatial-web-bluetooth-beacon)
 2. [Android Application](https://github.com/Spatial-Web-2526/spatial-web-android-client)
 3. [Spatial Web Server](https://github.com/Spatial-Web-2526/spatial-web-server)
