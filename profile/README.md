@@ -15,7 +15,7 @@ This project is composed of three repositories:
 1. [ESP32 BLE Beacon](https://github.com/Spatial-Web-2526/spatial-web-bluetooth-beacon)
 2. [Android Application](https://github.com/Spatial-Web-2526/spatial-web-android-client)
 3. [Spatial Web Server](https://github.com/Spatial-Web-2526/spatial-web-server)
-4. [Results Notebook](https://github.com/Spatial-Web-2526/results-analysis).
+4. [Results Notebook](https://github.com/Spatial-Web-2526/results-analysis)
 
 The **ESP32** BLE Beacon serves as the "starting point" of the connection. It acts as a spatial anchor, corresponding to a room in a building, broadcasting the room's corresponding Spatial Web ID (SWID) via advertisement data.
 
