@@ -15,12 +15,15 @@ This project is composed of three repositories:
 1. [ESP32 BLE Beacon](https://github.com/Spatial-Web-2526/spatial-web-bluetooth-beacon)
 2. [Android Application](https://github.com/Spatial-Web-2526/spatial-web-android-client)
 3. [Spatial Web Server](https://github.com/Spatial-Web-2526/spatial-web-server)
+4. [Results Notebook](https://github.com/Spatial-Web-2526/results-analysis).
 
 The **ESP32** BLE Beacon serves as the "starting point" of the connection. It acts as a spatial anchor, corresponding to a room in a building, broadcasting the room's corresponding Spatial Web ID (SWID) via advertisement data.
 
 The Android Application was created using **Kotlin** and it was used to detect the strongest ESP32 BLE beacon in an area. Once detection is complete, it sends its corresponding queries to a UDG Spatial Web server. The server logs (used for analysis) will be saved within the application and can be uploaded to a cloud database (**Supabase**, in this case) for easier data analysis.
 
 The Spatial Web Server encompasses the code for the **FastAPI** backend service used to facilitate the UDG and HSML code and it was first deployed using DigitalOcean droplets. Environment variables can be set to interface whether the Spatial Web Server will act a UDG, HSML, or LLM server. For a Spatial Web Server to also act as a UDG server, it requires the use of a Neo4j instance to also be installed in the server. As a result, the UDG server requires atleast the minimum system requirements needed for Neo4j to run in a [cloud environment](https://neo4j.com/docs/operations-manual/current/installation/requirements/).
+
+The Results Notebook was the Python notebook used in order to perform data analysis on the results of the experiments. It fetches the data that was uploaded from a Supabase database and performs analysis on it.
 
 ## Acknowledgements
 The following researchers were involved in this project:
